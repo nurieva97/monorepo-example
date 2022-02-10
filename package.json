@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "useWorkspaces": true,
+  "workspaces": [
+    "vue-app",
+    "nuxt-app",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "generate": "lerna run generate",
+    "test": "lerna run jest"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "yarn": "^1.22.17"
+  }
+}

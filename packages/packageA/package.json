@@ -1,0 +1,11 @@
+{
+  "name": "@custom/package-a",
+  "version": "1.0.0",
+  "main": "main.js",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    }
+  }
+}
